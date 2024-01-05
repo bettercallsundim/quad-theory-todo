@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text: #0b190b;
+    --background: #e5f6e4;
+    --primary: #207c1d;
+    --secondary: #74e972;
+    --accent: #18d411;
+  }
+  .dark {
+    --text: #e7f5e7;
+    --background: #0a1c09;
+    --primary: #86e283;
+    --secondary: #198f16;
+    --accent: #31ee2c;
+  }
+}
+
+.dmsans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px !important;
+  aspect-ratio: 1.25/2;
+  /* height: 250px !important; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boxshadow {
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.5);
+}
