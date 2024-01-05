@@ -15,8 +15,10 @@ export default function RootLayout({ children }) {
         <body className="dmsans bg-[#EEEFF0]  w-full min-h-screen overflow-x-hidden">
           <Navbar />
           {children}
+
           <Footer />
         </body>
+        
       </ReduxProvider>
     </html>
   );

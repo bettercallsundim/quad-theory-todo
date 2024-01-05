@@ -16,6 +16,7 @@ const itemSlice = createSlice({
   reducers: {
     addPosts: (state, action) => {
       state.posts = [...state.posts, action.payload];
+      console.log("adding posts", state.posts);
     },
   },
   extraReducers: (builder) => {
@@ -33,5 +34,5 @@ const itemSlice = createSlice({
     });
   },
 });
-export const {} = itemSlice.actions;
+export const { addPosts } = itemSlice.actions;
 export default itemSlice.reducer;
