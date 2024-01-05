@@ -1,8 +1,7 @@
-import { memo } from "react";
 import { FaGoogle, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const Footer = memo(() => {
+export default Footer = () => {
   return (
     <footer className="  bg-[#F99F1C] mt-20 md:py-20  px-4 py-12 md:px-32 flex items-center justify-around">
       <div className="first w-full md:w-[50%]">
@@ -57,6 +56,4 @@ const Footer = memo(() => {
       </div>
     </footer>
   );
-});
-
-export default Footer;
+};
