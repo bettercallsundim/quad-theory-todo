@@ -19,9 +19,6 @@ const Slider = ({ posts, prevButtonRef, nextButtonRef }) => {
         slidesPerView="auto"
         spaceBetween={30}
         freeMode={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
         modules={[FreeMode, Navigation]}
         navigation={{
           prevEl: prevButtonRef.current,

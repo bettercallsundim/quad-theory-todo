@@ -12,7 +12,7 @@ export default function Footer() {
               placeholder="Enter Your Email"
               className="px-6 py-4 rounded-[15px]  bg-white pr-34 outline-none border-none text-black"
             />
-            <button className="absolute rounded-[15px]  top-2 right-4 bottom-2 flex items-center justify-center px-10 py-2 md:bg-[#FC6011] text-[#FC6011] md:text-white text-base md:text-sm font-semibold hover:scale-105 duration-300">
+            <button className="absolute rounded-[15px]  top-2 right-0 md:right-4 bottom-2 flex items-center justify-center px-10 py-2 md:bg-[#FC6011] text-[#FC6011] md:text-white text-base md:text-sm font-semibold hover:scale-105 duration-300">
               Subscribe{" "}
               <span className="ml-2">
                 <FaArrowRightLong />
