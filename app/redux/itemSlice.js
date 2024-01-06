@@ -2,7 +2,9 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchPosts = createAsyncThunk("fetchPosts", async () => {
-  const response = await axios.get(process.env.NEXT_PUBLIC_QUAD_THEORY_API);
+  const response = await axios.get(
+    "https://quad-theory-todo-backend.vercel.app/"
+  );
   return response.data.Items;
 });
 const itemSlice = createSlice({

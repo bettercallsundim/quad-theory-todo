@@ -54,7 +54,7 @@ const Form = ({ setPortal }) => {
       <div className="">
         <button
           onClick={() => setPortal(false)}
-          className=" bg-orange-500 text-white p-4 rounded-full absolute top-4 right-4 z-[999999] hover:bg-slate-300 hover:text-orange-500 hover:scale hover:shadow-lg duration-300"
+          className=" bg-orange-500 text-white p-4 rounded-full absolute top-4 right-4 z-[1000] hover:bg-slate-300 hover:text-orange-500 hover:scale hover:shadow-lg duration-300"
         >
           <IoMdClose />
         </button>
