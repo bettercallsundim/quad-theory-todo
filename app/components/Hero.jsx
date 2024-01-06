@@ -13,9 +13,9 @@ const Hero = () => {
 
   return (
     <div className="mt-20 container mx-auto px-2 sm:px-4 md:px-16 ">
-      <div className="flex flex-col md:flex-row items-center justify-around px-4 md:px-20 rounded-[30px] md:bg-[#F99F1C]">
+      <div className="flex flex-col md:flex-row items-center justify-around py-8 px-4 md:px-8 lg:px-20 rounded-[30px] md:bg-[#F99F1C]">
         <div>
-          <h1 className="font-extrabold md:font-normal text-black md:text-white text-center md:text-left text-3xl md:text-5xl capitalize">
+          <h1 className="font-extrabold md:font-normal text-black md:text-white text-center md:text-left text-3xl md:text-4xl lg:text-5xl capitalize">
             Deliver food to your door step
           </h1>
           <p className="text-black md:text-slate-300 mt-6 text-xl text-center md:text-left">

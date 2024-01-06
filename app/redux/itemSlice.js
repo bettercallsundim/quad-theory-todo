@@ -2,7 +2,6 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchPosts = createAsyncThunk("fetchPosts", async () => {
-  console.log("fetching posts");
   const response = await axios.get(process.env.NEXT_PUBLIC_QUAD_THEORY_API);
   return response.data.Items;
 });
@@ -16,14 +15,12 @@ const itemSlice = createSlice({
   reducers: {
     addPosts: (state, action) => {
       state.posts = [...state.posts, action.payload];
-      console.log("adding posts", state.posts);
     },
   },
   extraReducers: (builder) => {
     builder.addCase(fetchPosts.fulfilled, (state, action) => {
       state.loading = false;
       state.posts = action.payload;
-      // console.log("posts", state.posts);
     });
     builder.addCase(fetchPosts.pending, (state) => {
       state.loading = true;
