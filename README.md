@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Quad Theory Technical Test</h1>
 <br>
-<p id="description">This project is a part of the technical test given by Quad Theory Ltd where I had to create a UI, fetch data and add some forms and validation.<br>[ The API that was given to me was only working in localhost. Vercel deployed frontend was not able to access it for Mixed Content Policy reason. Because the API was created in a http server and my frontend is hosted in a https server. That's why Chrome was throwing error which I found out in the console.<br>So I had to create my own API with Express.js with the same data provided by Quad Theory. Which can be founded at [https://quad-theory-todo-backend.vercel.app/](https://quad-theory-todo-backend.vercel.app/)</p>
+<p id="description">This project is a part of the technical test given by Quad Theory Ltd where I had to create a UI, fetch data and add some forms and validation.<br>[ The API that was given to me was only working in localhost. Vercel deployed frontend was not able to access it for Mixed Content Policy reason. Because the API was created in a http server and my frontend is hosted in a https server. That's why Chrome was throwing error which I found out in the console.<br>So I had to create my own API with Express.js with the same data provided by Quad Theory. Which can be founded at [ https://quad-theory-todo-backend.vercel.app ]( https://quad-theory-todo-backend.vercel.app )</p>
 
 <h2>🚀 Demo</h2>
 
