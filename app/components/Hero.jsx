@@ -6,13 +6,11 @@ import image from "../../public/Image1.png";
 import { fetchPosts } from "../redux/itemSlice";
 const Hero = () => {
   const dispatch = useDispatch();
-
   useEffect(() => {
     dispatch(fetchPosts());
   }, []);
-
   return (
-    <div className="mt-20 container mx-auto px-2 sm:px-4 md:px-16 ">
+    <div className="md:mt-20 container mx-auto px-2 sm:px-4 md:px-16 ">
       <div className="flex flex-col md:flex-row items-center justify-around py-8 px-4 md:px-8 lg:px-20 rounded-[30px] md:bg-[#F99F1C]">
         <div>
           <h1 className="font-extrabold md:font-normal text-black md:text-white text-center md:text-left text-3xl md:text-4xl lg:text-5xl capitalize">

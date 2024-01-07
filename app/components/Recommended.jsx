@@ -46,6 +46,11 @@ export default function Recommended() {
           nextButtonRef={nextButtonRef}
           posts={posts.filter((post) => post.IsRecommended)}
         />
+        {loading && (
+          <div className="w-full flex items-center justify-center text-black">
+            Loading...
+          </div>
+        )}
       </div>
     </div>
   );
