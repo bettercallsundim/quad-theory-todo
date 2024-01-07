@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="font-extrabold md:font-normal text-black md:text-white text-center md:text-left text-3xl md:text-4xl lg:text-5xl capitalize">
             Deliver food to your door step
           </h1>
-          <p className="text-black md:text-slate-300 mt-6 text-xl text-center md:text-left">
+          <p className="text-black md:text-slate-200 mt-6 text-xl text-center md:text-left">
             Authentic Food, Quick Service, Free Delivery
           </p>
         </div>

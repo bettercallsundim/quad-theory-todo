@@ -38,7 +38,7 @@ const Form = ({ setPortal }) => {
           IsRecommended: data["Recommended"] ? true : false,
         })
       );
-      const notify = () => toast.success("Post Added");
+      const notify = () => toast.success("Item Added");
       notify();
       setTimeout(() => {
         setPortal(false);
