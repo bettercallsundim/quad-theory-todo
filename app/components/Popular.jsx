@@ -21,7 +21,7 @@ export default function Popular() {
             onClick={() => {
               setPortal(true);
             }}
-            className="font-xl font-bold text-orange-500 px-2 py-1"
+            className="font-xl font-bold text-orange-500 px-3 py-2 rounded-lg hover:bg-slate-200"
           >
             Add More
           </button>

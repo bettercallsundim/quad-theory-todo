@@ -22,8 +22,8 @@ export default function Footer() {
         </div>
         <div className="mt-20 flex flex-col-reverse md:flex-row md:items-center md:justify-between">
           <div className="mt-10 md:mt-[unset]">
-            <h1 className="font-extrabold text-3xl mb-4 text-black text-center md:text-left">
-              pti.
+            <h1 className="font-extrabold text-3xl md:text-4xl mb-4 text-black text-center md:text-left">
+              pti<span className="text-orange-600">.</span>
             </h1>
             <h4 className="font-extrabold  mb-4 text-black text-center md:text-left">
               Copyright&copy;Tripp.All Right Reserved

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="container mx-auto px-2 sm:px-4 md:px-16 py-6 navbar  text-black flex items-center justify-around gap-x-4">
       <div className="logo">
-        <span className="font-extrabold text-2xl pl-2 md:text-3xl">pti.</span>
+        <span className="font-extrabold text-3xl pl-2 md:text-4xl">pti.</span>
       </div>
       <div className="search-menu flex items-center justify-between md:justify-center  w-full md:w-[60%] ">
         <div className="w-full md:w-[50%] relative bg-white rounded-lg">
